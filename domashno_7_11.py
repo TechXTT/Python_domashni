@@ -27,7 +27,10 @@ def third():
 
 def fourth():
     inpstr = input("Give a number to check if symmetric:")
-    print(str(inpstr) == str(inpstr)[::-1])
+    if (int(inpstr) > 9):
+        print(str(inpstr) == str(inpstr)[::-1])
+    else:
+        print("Not symmetrical")
 
 
 print("First exercise")
