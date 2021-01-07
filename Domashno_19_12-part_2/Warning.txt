@@ -1,0 +1,1 @@
+Please screenshot your screen and crop the windows button than replace the start_button.png file with your crop so it works for you
